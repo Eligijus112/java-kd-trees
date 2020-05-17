@@ -53,10 +53,22 @@
     <configuration name="KdTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KdTree" />
       <module name="java-kd-trees" />
+      <option name="PROGRAM_PARAMETERS" value="points2.txt" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="KdTreeVisualizer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="KdTreeVisualizer" />
+      <module name="java-kd-trees" />
+      <option name="PROGRAM_PARAMETERS" value="points.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NearestNeighborVisualizer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="NearestNeighborVisualizer" />
+      <module name="java-kd-trees" />
+      <method v="2" />
     </configuration>
     <configuration name="PointSET" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PointSET" />
@@ -66,11 +78,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RangeSearchVisualizer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RangeSearchVisualizer" />
+      <module name="java-kd-trees" />
+      <option name="PROGRAM_PARAMETERS" value="points.txt" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -90,9 +106,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/KdTree.java</url>
-          <line>107</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/PointSET.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
